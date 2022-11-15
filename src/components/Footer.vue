@@ -42,95 +42,81 @@ defineProps({
         </div>
         <div class="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
           <div>
-            <p class="font-semibold tracking-wide text-teal-accent-400">
-              Category
+            <p class="font-bold tracking-wide text-teal-accent-400">
+              What We Do
             </p>
             <ul class="mt-2 space-y-2">
               <li>
-                <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">News</a>
+                <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Forensic Labaratory</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">World</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Family Village</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Games</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Research & Training</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">References</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Pediatric Care</a>
+              </li>
+              <li>
+                <a href="/"
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">GBV Recovery Centre</a>
+              </li>
+              <li>
+                <a href="/"
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">HIV/AIDS Out-Patient Clinic</a>
+              </li>
+              <li>
+                <a href="/"
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Burn Units</a>
               </li>
             </ul>
           </div>
           <div>
-            <p class="font-semibold tracking-wide text-teal-accent-400">Cherry</p>
+            <p class="font-bold tracking-wide text-teal-accent-400">Who We Are</p>
             <ul class="mt-2 space-y-2">
               <li>
-                <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Web</a>
+                <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Our History</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">eCommerce</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Organization Structure</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Business</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Board of Directors</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Entertainment</a>
-              </li>
-              <li>
-                <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Portfolio</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Advisory Pane</a>
               </li>
             </ul>
           </div>
           <div>
-            <p class="font-semibold tracking-wide text-teal-accent-400">Apples</p>
+            <p class="font-bold tracking-wide text-teal-accent-400">Quick Links</p>
             <ul class="mt-2 space-y-2">
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Media</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Blog Articles</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Brochure</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Contacts</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Nonprofit</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Gallery</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Educational</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Resources</a>
               </li>
               <li>
                 <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Projects</a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <p class="font-semibold tracking-wide text-teal-accent-400">
-              Business
-            </p>
-            <ul class="mt-2 space-y-2">
-              <li>
-                <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Infopreneur</a>
-              </li>
-              <li>
-                <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Personal</a>
-              </li>
-              <li>
-                <a href="/" class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Wiki</a>
-              </li>
-              <li>
-                <a href="/"
-                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Forum</a>
+                  class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">CSR</a>
               </li>
             </ul>
           </div>

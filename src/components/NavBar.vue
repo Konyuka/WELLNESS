@@ -1,5 +1,7 @@
 <script setup>
 import { ref } from 'vue';
+import { RouterLink } from 'vue-router'
+
 
 defineProps({
   msg: {
@@ -15,7 +17,7 @@ const whatWeDo = ref(false)
 </script>
 
 <template>
-  <div class="">
+  <div class="shadow-2xl">
     <div class="relative shadow bg-gradient-to-r from-gray-50 to-gray-100">
       <div class="mx-auto max-w-8xl px-4 sm:px-6">
         <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
@@ -197,7 +199,7 @@ const whatWeDo = ref(false)
             </div>
 
             <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Blog Articles</a>
-            <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Contacts</a>
+            <RouterLink to="/contacts" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Contacts</RouterLink>
             <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Gallery</a>
             <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Resources</a>
             <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">CSR</a>

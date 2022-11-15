@@ -176,7 +176,7 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">community Paralegal</h6>
+          <h6 class="mb-2 font-semibold leading-5">Community Paralegal</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
