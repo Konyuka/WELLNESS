@@ -4,7 +4,7 @@ import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <div>
+  <div class="bg-hero-pattern bg-opacity-25 bg-cover bg-center object-cover bg-fixed">
     <header>
       <div class="">
         <NavBar />

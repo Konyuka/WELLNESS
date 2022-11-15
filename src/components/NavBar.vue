@@ -16,7 +16,7 @@ const whatWeDo = ref(false)
 
 <template>
   <div class="">
-    <div class="relative shadow bg-gradient-to-r from-gray-50 to-indigo-50">
+    <div class="relative shadow bg-gradient-to-r from-gray-50 to-gray-100">
       <div class="mx-auto max-w-8xl px-4 sm:px-6">
         <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -190,44 +190,6 @@ const whatWeDo = ref(false)
                         <p class="text-base font-medium transition group-hover:scale-90 duration-700 group-hover:font-bold text-gray-900">Burn Units</p>
                       </div>
                     </a>
-                  </div>
-
-                  <div class="bg-gradient-to-r from-gray-50 to-indigo-100 px-5 py-5 sm:px-8 sm:py-8">
-                    <div>
-                      <h3 class="text-base font-bold text-gray-900 text-center mb-4">Our Programs</h3>
-                      <ul role="list" class="mt-4 space-y-4">
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> School Outreach Program</a>
-                        </li>
-    
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i>Youth Forum Module</a>
-                        </li>
-    
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> Faith Based Organisation Component</a>
-                        </li>
-
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> Kasarani GBV Network Group</a>
-                        </li>
-
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> Health Workers</a>
-                        </li>
-
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> Community Paralegal</a>
-                        </li>
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> Leaders & Stakeholders</a>
-                        </li>
-                        <li class="group transform transition hover:scale-105 duration-700 truncate text-base">
-                          <a href="#" class="font-medium text-gray-900 hover:text-gray-700"><i class="fa-solid fa-circle fa-xs text-gray-300 mr-1 group-hover:text-indigo-800"></i> GBV Information Desk</a>
-                        </li>
-                      </ul>
-                    </div>
-  
                   </div>
 
                 </div>
