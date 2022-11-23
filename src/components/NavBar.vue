@@ -22,10 +22,10 @@ const whatWeDo = ref(false)
       <div class="mx-auto max-w-8xl px-4 sm:px-6">
         <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#">
+            <RouterLink to="/">
               <span class="sr-only">Your Company</span>
               <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
-            </a>
+            </RouterLink>
           </div>
           <div class="-my-2 -mr-2 md:hidden">
             <button type="button"
@@ -198,11 +198,11 @@ const whatWeDo = ref(false)
               </div>
             </div>
 
-            <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Blog Articles</a>
+            <RouterLink to="/blogs" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Blog Articles</RouterLink>
             <RouterLink to="/contacts" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Contacts</RouterLink>
-            <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Gallery</a>
-            <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Resources</a>
-            <a href="#" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">CSR</a>
+            <RouterLink to="/gallery" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Gallery</RouterLink>
+            <RouterLink to="/resources" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">Resources</RouterLink>
+            <RouterLink to="/csr" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-medium text-gray-500 hover:text-gray-900">CSR</RouterLink>
     
           </nav>
           <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">

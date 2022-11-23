@@ -10,15 +10,35 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/GalleryView.vue')
+      path: '/blogs',
+      name: 'blogs',
+      component: () => import('../views/BlogView.vue')
     },
     {
       path: '/contacts',
       name: 'contscts',
       component: () => import('../views/ContactView.vue')
-    }
+    },
+    {
+      path: '/gallery',
+      name: 'gallery',
+      component: () => import('../views/ContactView.vue')
+    },
+    {
+      path: '/resources',
+      name: 'resources',
+      component: () => import('../views/ResourceView.vue')
+    },
+    {
+      path: '/csr',
+      name: 'csr',
+      component: () => import('../views/CSRView.vue')
+    },
+    {
+      path: '/contacts',
+      name: 'contscts',
+      component: () => import('../views/ContactView.vue')
+    },
   ]
 })
 
