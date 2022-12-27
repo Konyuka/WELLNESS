@@ -4,7 +4,7 @@ import Footer from '../components/Footer.vue'
 
 <template>
   <div class="">
-    <section class="relative pb-20 lg:pb-40 lg:pt-20 2xl:py-40 bg-indigo-800 overflow-hidden">
+    <section class="relative pb-20 lg:pb-40 lg:pt-20 2xl:py-40 bg-red-800 overflow-hidden">
       <!-- <img class="hidden lg:block absolute bottom-0 left-0 w-40 h-48 object-cover"
         src="https://images.pexels.com/photos/7193529/pexels-photo-7193529.jpeg?q=80&amp;fm=jpg&amp;crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;h=650&amp;w=450"
         alt=""> -->
@@ -68,7 +68,7 @@ import Footer from '../components/Footer.vue'
       </div>
     </section>
 
-    <section class="relative pb-20 lg:pb-40 lg:pt-20 2xl:py-4 bg-indigo-800 overflow-hidden">
+    <section class="relative pb-20 lg:pb-40 lg:pt-20 2xl:py-4 bg-red-800 overflow-hidden">
       <!-- <img class="hidden lg:block absolute bottom-0 left-0 w-40 h-48 object-cover"
             src="https://images.pexels.com/photos/7193529/pexels-photo-7193529.jpeg?q=80&amp;fm=jpg&amp;crop=faces&amp;cs=tinysrgb&amp;fit=crop&amp;h=650&amp;w=450"
             alt=""> -->
@@ -125,7 +125,7 @@ import Footer from '../components/Footer.vue'
       </div>
     </section>
 
-    <section class="relative py-20 2xl:py-40 bg-indigo-800 overflow-hidden">
+    <section class="relative py-20 2xl:py-40 bg-red-800 overflow-hidden">
       <!-- <img class="hidden lg:block absolute top-0 right-0 h-128 w-128 -mt-52 -mr-52" src="zospace-assets/lines/circle.svg"
         alt="">
       <img class="hidden lg:block absolute bottom-0 left-0 h-128 w-128 -mb-52" src="zospace-assets/lines/full-circle.svg"

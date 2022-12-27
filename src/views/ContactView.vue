@@ -7,7 +7,7 @@ import Footer from '../components/Footer.vue'
 
     <div class="container mx-auto pt-16">
       <div class="lg:flex">
-        <div class="xl:w-2/5 lg:w-2/5 bg-indigo-800 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
+        <div class="xl:w-2/5 lg:w-2/5 bg-red-800 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
           <div class="xl:w-5/6 xl:px-0 px-8 mx-auto">
             <h1 class="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
             <p class="text-md text-white pb-8 leading-relaxed font-normal lg:pr-4">
@@ -55,7 +55,7 @@ import Footer from '../components/Footer.vue'
                     class="text-gray-800 dark:text-white text-sm font-semibold leading-tight tracking-normal mb-2">Full
                     Name</label>
                   <input required id="full_name" name="full_name" type="text"
-                    class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
+                    class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-red-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
                     placeholder="Full Name" aria-label="enter your full name input" />
                 </div>
               </div>
@@ -64,7 +64,7 @@ import Footer from '../components/Footer.vue'
                   <label for="email"
                     class="text-gray-800 dark:text-white text-sm font-semibold leading-tight tracking-normal mb-2">Email</label>
                   <input required id="email" name="email" type="email"
-                    class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
+                    class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-red-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
                     placeholder="example@email.com" aria-label="enter your email input" />
                 </div>
               </div>
@@ -75,7 +75,7 @@ import Footer from '../components/Footer.vue'
                   <label for="phone"
                     class="text-gray-800 dark:text-white text-sm font-semibold leading-tight tracking-normal mb-2">Phone</label>
                   <input required id="phone" name="phone" type="tel"
-                    class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
+                    class="dark:bg-gray-900 dark:text-white dark:border-gray-700 focus:outline-none focus:border focus:border-red-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
                     placeholder="+254 716 202 298" aria-label="enter your phone number input" />
                 </div>
               </div>
@@ -84,18 +84,18 @@ import Footer from '../components/Footer.vue'
               <div class="flex flex-col">
                 <label class="text-sm font-semibold text-gray-800 dark:text-white mb-2" for="message">Message</label>
                 <textarea placeholder="" name="message"
-                  class="dark:bg-gray-900 dark:text-white dark:border-gray-700 border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700"
+                  class="dark:bg-gray-900 dark:text-white dark:border-gray-700 border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-red-700"
                   rows="8" id="message" aria-label="enter your message input"></textarea>
               </div>
               <button type="submit"
-                class="focus:outline-none bg-indigo-800 transition duration-150 ease-in-out hover:bg-black rounded text-white px-8 py-3 text-sm leading-6 focus:border-4 focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 font-bold">Submit <i class="ml-2 fas fa-paper-plane"></i> </button>
+                class="focus:outline-none bg-red-800 transition duration-150 ease-in-out hover:bg-black rounded text-white px-8 py-3 text-sm leading-6 focus:border-4 focus:ring-2 focus:ring-offset-2 focus:ring-red-700 font-bold">Submit <i class="ml-2 fas fa-paper-plane"></i> </button>
             </div>
           </form>
         </div>
       </div>
     </div>
 
-    <div class="container mx-auto overflow-hidden bg-indigo-800">
+    <div class="container mx-auto overflow-hidden bg-red-800">
       <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="flex flex-col items-center justify-between xl:flex-row">
           <div class="w-full max-w-xl mb-12 xl:pr-16 xl:mb-0 xl:w-7/12">
@@ -151,7 +151,7 @@ import Footer from '../components/Footer.vue'
                   </div>
                   <div class="mt-4 mb-2 sm:mb-4">
                     <button type="submit"
-                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-indigo-800 hover:bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
+                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-red-800 hover:bg-black hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
                       Subscribe
                     </button>
                   </div>
