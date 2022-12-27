@@ -12,34 +12,33 @@ import Footer from '../components/Footer.vue'
       <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div class="max-w-screen text-center sm:text-left">
           <h1 class="text-3xl font-extrabold sm:text-5xl">
-            Kenya Women & Children's
+             Mich 
     
-            <strong class="block font-extrabold text-indigo-800">
-              Wellness Centre
+            <strong class="block font-extrabold text-red-800">
+             Digital
             </strong>
           </h1>
     
-          <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
-            We’re focused on reaching the poorest and most vulnerable people who are often living in fragile and conflict-affected
-            states.
+          <p class="mt-4 max-w-lg sm:text-2xl sm:leading-relaxed">
+            The Science of Attention & Persuasion
           </p>
     
           <div class="mt-8 flex flex-wrap gap-4 text-center">
             <a href="#"
-              class="block w-full rounded bg-indigo-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-indigo-700 focus:outline-none focus:ring active:bg-indigo-500 sm:w-auto">
-              Get Started
+              class="transform transition hover:scale-105 duration-700 block w-full rounded bg-red-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto">
+              <span class="font-medium">Company Profile</span>  <i class="ml-5 fa-solid fa-address-card"></i>
             </a>
     
             <a href="#"
-              class="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-indigo-800 shadow hover:text-indigo-700 focus:outline-none focus:ring active:text-indigo-500 sm:w-auto">
-              Learn More
+              class="transform transition hover:scale-105 duration-700 hover:bg-white block w-full rounded bg-gray-200 px-12 py-3 text-sm font-medium text-black shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto">
+              More About Us
             </a>
           </div>
         </div>
       </div>
     </section>
 
-    <div class="relative bg-indigo-800">
+    <div class="relative bg-red-800">
       <div class="absolute inset-x-0 bottom-0">
         <svg viewBox="0 0 224 12" fill="currentColor" class="w-full -mb-1 text-white" preserveAspectRatio="none">
           <path
@@ -52,7 +51,7 @@ import Footer from '../components/Footer.vue'
           <h2 class="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
           A Brief About the Organisation<br class="hidden md:block" />
           </h2>
-          <p class="mb-6 text-base text-indigo-100 md:text-lg">
+          <p class="mb-6 text-base text-red-100 md:text-lg">
             As a not for profit institution, the Centre is committed to promoting equity and excellence in healthcare for Kenya's
             women and children, with a special focus on those from underpriviledged and under-resourced communities...
           </p>
@@ -107,8 +106,8 @@ import Footer from '../components/Footer.vue'
 
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 mb-14">
       <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -119,10 +118,10 @@ import Footer from '../components/Footer.vue'
           </p>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -131,10 +130,10 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">Youth Forum Module</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -143,10 +142,10 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">Faith Based Organisation Component</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -155,10 +154,10 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">Kasarani GBV Network Group</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -167,10 +166,10 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">Health Workers</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -179,10 +178,10 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">Community Paralegal</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -191,10 +190,10 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">Leaders & Stakeholders</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
-        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-indigo-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-indigo-50">
+        <div class="bg-gradient-to-l hover:from-blue-200 hover:to-red-50 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-50">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
               <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
@@ -203,7 +202,7 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">GBV Information Desk</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-indigo-800 ml-2 mt-1"></i></a>
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
       </div>
     </div>
@@ -215,7 +214,7 @@ import Footer from '../components/Footer.vue'
       <img
         src="https://images.pexels.com/photos/3228766/pexels-photo-3228766.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
         class="absolute inset-0 object-cover w-full h-full" alt="" />
-      <div class="relative bg-opacity-75 bg-indigo-800">
+      <div class="relative bg-opacity-75 bg-red-800">
         <svg class="absolute inset-x-0 bottom-0 text-white" viewBox="0 0 1160 163">
           <path fill="currentColor"
             d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z">
