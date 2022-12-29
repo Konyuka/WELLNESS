@@ -41,7 +41,7 @@ const whatWeDo = ref(false)
           </div>
 
           <nav class="hidden space-x-10 md:flex">
-            <RouterLink to="/resources" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services</RouterLink>
+            <RouterLink to="/services" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services</RouterLink>
             <RouterLink to="/contacts" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Contact Us</RouterLink>
             <RouterLink to="/csr" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Testimonials</RouterLink>
             <RouterLink to="/blogs" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Blog Articles</RouterLink>
@@ -53,10 +53,10 @@ const whatWeDo = ref(false)
             <div>
               <div class="relative mt-1 rounded-md shadow-sm">
                 <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-                  <i class="fa-solid fa-magnifying-glass fa-xl text-gray-400"></i>
+                  <i class="fa-solid fa-magnifying-glass fa-xl text-red-800"></i>
                 </div>
-                <input type="email" name="email" id="email"
-                  class="ml-1 block w-full rounded-md border-gray-300 pl-10 focus:border-red-500 focus:ring-red-500 text-sm text-bold"
+                <input type="text" name="text" id="text"
+                  class="ml-1 block w-full rounded-md border-gray-300 pl-10 focus:border-red-500 focus:ring-red-500 text-sm font-bold"
                   placeholder="search">
               </div>
             </div>

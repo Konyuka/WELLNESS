@@ -25,9 +25,9 @@ const router = createRouter({
       component: () => import('../views/ContactView.vue')
     },
     {
-      path: '/resources',
-      name: 'resources',
-      component: () => import('../views/ResourceView.vue')
+      path: '/services',
+      name: 'services',
+      component: () => import('../views/ServicesView.vue')
     },
     {
       path: '/csr',
