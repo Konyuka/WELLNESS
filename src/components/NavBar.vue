@@ -24,7 +24,7 @@ const whatWeDo = ref(false)
           <div class="flex justify-start lg:w-0 lg:flex-1">
             <RouterLink to="/">
               <span class="sr-only">Your Company</span>
-              <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/mark.svg?color=red&shade=600" alt="">
+              <img class="h-8 w-auto sm:h-40" src="/logo.png" alt="">
             </RouterLink>
           </div>
           <div class="-my-2 -mr-2 md:hidden">
@@ -41,11 +41,11 @@ const whatWeDo = ref(false)
           </div>
 
           <nav class="hidden space-x-10 md:flex">
-            <RouterLink to="/services" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services</RouterLink>
-            <RouterLink to="/contacts" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Contact Us</RouterLink>
-            <RouterLink to="/csr" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Testimonials</RouterLink>
-            <RouterLink to="/blogs" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Blog Articles</RouterLink>
-            <RouterLink to="/gallery" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">About us</RouterLink>
+            <RouterLink to="/services" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services <i class="text-red-800 fa-solid fa-business-time"></i> </RouterLink>
+            <RouterLink to="/about-us" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">About Us <i class="text-red-800 fa-solid fa-user-tie"></i> </RouterLink>
+            <RouterLink to="/contacts" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Contact Us <i class="text-red-800 fa-solid fa-address-book"></i> </RouterLink>
+            <RouterLink to="/why-us" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Why Us ? <i class="text-red-800 fa-solid fa-circle-question"></i> </RouterLink>
+            <RouterLink to="/blogs" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Blogs <i class="text-red-800 fa-solid fa-blog"></i> </RouterLink>
     
           </nav>
           <div class="hidden items-center justify-end md:flex md:flex-1 lg:w-0">

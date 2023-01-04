@@ -1,92 +1,224 @@
+<script setup>
+import Footer from '../components/Footer.vue'
+
+</script>
+
 <template>
   <div class="">
-    <div class="bg-hero-pattern bg-opacity-25 bg-cover bg-center object-cover bg-fixed0">
-    <!-- <div class="bg-gradient-to-l from-blue-200 to-red-50"> -->
-      <div class="mx-auto max-w-7xl py-12 px-4 sm:py-16 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl divide-y-2 divide-gray-200">
-          <!-- <h2 class="text-center text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Frequently asked questions
-          </h2> -->
-          <div class="mb-16 md:mb-24 text-center">
-            <h2 class="mb-8 md:mb-14 text-5xl lg:text-6xl 2xl:text-7xl text-red-800 font-bold font-heading">Download Resources</h2>
-            <p class="text-lg text-gray-800">
-              The KWCWC manages a Documentation and Resource Unit - DRU - to support the research needs of KWCWC staff and its
-              partners. The DRU contains diverse information from various sources including material produced within the organization,
-              other organizations, research institutions, government, individual contributors, purchases of relevant materials and the
-              Internet. These materials have been useful to the practitioners, institutions, students and the general public and can
-              be accessed directly from our Offices or by downloading them using the links below, and printing them out.
+
+    <div class="relative pt-10 pb-20 sm:py-24">
+      <div class="absolute inset-x-0 -top-0 -bottom-14 overflow-hidden bg-red-50"><img alt=""
+          src="" width="918" height="1495" decoding="async" data-nimg="1"
+          class="absolute top-0 left-0 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2 sm:translate-y-[-6%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]"
+          style="color:transparent">
+        <div class="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-white"></div>
+        <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white"></div>
+      </div>
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative">
+
+        <div class="shadow-md mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
             </p>
+            
           </div>
-          <dl class="mt-6 space-y-6 divide-y divide-gray-200">
-            <div class="pt-6">
-              <dt class="text-lg">
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">Newsletter, March 2014 (Volume 1, Issue 1)</span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
 
-                <span class="bg-red-400 w-1"></span>
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
 
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">Baseline Survey Report on Knowledge, Attitude & Practices of SGBV State Duty Bearers in Kasarani District, Nairobi
-                  (2013)</span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">Baseline Survey Report on Gender Based Violence in Kasarani, Nairobi (2012) </span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">Pamoja Tuangamize Dhuluma Dhidi ya Jinsia </span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">GBV Response: The Kasarani District Perspective </span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">Together Against Gender Based Violence Booklet - USAID</span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">Together Against Gender Based Violence Booklet - FORD Foundation</span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-                <button type="button" class="mb-20 flex w-full items-start justify-between text-left text-gray-400"
-                  aria-controls="faq-0" aria-expanded="false">
-                  <span class="font-medium text-gray-900">KWCWC Brochure</span>
-                  <span class="ml-6 flex h-7 items-center">
-                    <i class="transition translate hover:scale-110 duration-700 fas fa-download fa-2x text-red-800 hover:text-black"></i>
-                  </span>
-                </button>
-              </dt>
-            </div>
-    
-            <!-- More questions... -->
-          </dl>
+          </div>
         </div>
+
+        <div class="shadow-md -ml-16 mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md -mr-20 mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md -ml-16 mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md -mr-20 mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md -ml-16 mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+        <div class="shadow-md -mr-20 mt-28 mx-auto max-w-2xl lg:max-w-4xl lg:px-12">
+          <h1 class="-ml-24 font-display text-5xl font-bold tracking-tighter text-red-800"><span
+              class="sr-only">DeceptiConf - </span> <i class="fas fa-caret-right mr-4 text-black"></i> Digital Marketing Strategy/Consulting</h1>
+          <div class="mt-6 space-y-6 font-display text-2xl tracking-tight text-gray-600">
+            <p>
+              Our job is to guide your marketing efforts
+              towards creating and executing A Digital
+              Strategy that scales your Revenue and
+              Visibility across multi-platforms
+            </p>
+            
+          </div>
+
+          <div class="mt-10 -ml-10">
+            <button type="button"
+              class="transform transition hover:scale-105 duration-700 inline-flex items-center rounded-md border border-transparent bg-black px-6 py-3 text-base font-medium text-white hover:text-red-800 hover:font-bold shadow-sm hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2">
+              Make Service Enquiry <i class="ml-5 fa-solid fa-arrow-up-right-from-square"></i>
+            </button>
+
+          </div>
+        </div>
+
+
       </div>
     </div>
+
+    <Footer class="bg-white mt-18" />
 
   </div>
 </template>

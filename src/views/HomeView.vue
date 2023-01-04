@@ -255,7 +255,7 @@ import Footer from '../components/Footer.vue'
     </div>
 
     <section id="testimonials" aria-label="What our customers are saying"
-      class="bg-gradient-to-t from-red-100 to-red-800 py-20 sm:py-32">
+      class="bg-red-800 py-20 sm:py-32">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl md:text-center">
           <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">Loved by businesses worldwide.</h2>
@@ -287,8 +287,7 @@ import Footer from '../components/Footer.vue'
                       Society</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.c78616b7.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.c78616b7.png&amp;w=128&amp;q=75 2x"
-                        src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-1.c78616b7.png&amp;w=128&amp;q=75"
+                        src=""
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -313,8 +312,7 @@ import Footer from '../components/Footer.vue'
                       Energy</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.16b4e29e.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.16b4e29e.png&amp;w=128&amp;q=75 2x"
-                        src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-4.16b4e29e.png&amp;w=128&amp;q=75"
+                        src=""
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -342,8 +340,7 @@ import Footer from '../components/Footer.vue'
                       <div class="mt-1 text-sm text-red-800 font-bold">MD, Liberty Kenya</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.e7f7faf2.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.e7f7faf2.png&amp;w=128&amp;q=75 2x"
-                        src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-5.e7f7faf2.png&amp;w=128&amp;q=75"
+                        src=""
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -368,8 +365,7 @@ import Footer from '../components/Footer.vue'
                       Technologies</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        srcset="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.c72e5a40.png&amp;w=64&amp;q=75 1x, /_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.c72e5a40.png&amp;w=128&amp;q=75 2x"
-                        src="/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar-2.c72e5a40.png&amp;w=128&amp;q=75"
+                        src=""
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>

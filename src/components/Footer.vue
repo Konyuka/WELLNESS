@@ -70,8 +70,11 @@ defineProps({
         </div>
       </div>
       <div class="flex flex-col justify-between pt-5 pb-10 border-t border-deep-purple-accent-200 sm:flex-row">
-        <p class="text-sm text-gray-100">
-          © Copyright 2020 Lorem Inc. All rights reserved.
+        <p class="text-sm text-black">
+          Designed by <a class="text-red-800 font-bold underline decoration-4" href="mailto:michaelsaiba84@gmail.com">Michael Saiba</a>
+        </p>
+        <p class="text-sm text-black">
+          © Copyright 2022 Mich Digital Limited. All rights reserved.
         </p>
         <div class="flex items-center mt-4 space-x-4 sm:mt-0">
           <a href="https://twitter.com/MichDigital_KE" target="_blank" class="tranform transition hover:scale-150 duration-700 text-black hover:text-red-800">
