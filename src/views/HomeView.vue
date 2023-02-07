@@ -1,5 +1,8 @@
 <script setup>
 import Footer from '../components/Footer.vue'
+// import {ref} from 'vue
+
+
 </script>
 
 <template>
@@ -12,7 +15,7 @@ import Footer from '../components/Footer.vue'
 
       <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div class="max-w-screen text-center sm:text-left">
-          <h1 class="text-3xl font-extrabold sm:text-5xl">
+          <h1 class="text-5xl font-extrabold sm:text-5xl">
             Mich
 
             <strong class="block font-extrabold text-red-800">
@@ -25,7 +28,8 @@ import Footer from '../components/Footer.vue'
           </p>
 
           <div class="mt-8 flex flex-wrap gap-4 text-center">
-            <a href="#"
+
+            <a href="/docs/Mich Digital Profile.pdf" download
               class="transform transition hover:scale-105 duration-700 block w-full rounded bg-red-800 px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto">
               <span class="font-medium">Company Profile</span> <i class="ml-5 fa-solid fa-address-card"></i>
             </a>
