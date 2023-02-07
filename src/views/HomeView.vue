@@ -198,7 +198,7 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">CREATIVECONTENT
+          <h6 class="mb-2 font-semibold leading-5">CREATIVE CONTENT
             MARKETING &
             COPYWRITING
           </h6>
@@ -383,8 +383,11 @@ import Footer from '../components/Footer.vue'
           class="mx-auto max-w-2xl text-center font-display text-4xl font-medium tracking-tighter text-black sm:text-5xl">
           Some of our clients</h2>
         <div
-          class="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols-3 md:gap-x-16 lg:gap-x-32">
-          <div class="flex items-center justify-center"><img alt="Transistor"
+          class="mx-auto mt-20 grid max-w-max grid-cols-1 place-content-center gap-y-12 gap-x-32 sm:grid-cols- md:gap-x-16 lg:gap-x-32">
+
+
+          <img class="" src="@/assets/20.png" alt="">
+          <!-- <div class="flex items-center justify-center"><img alt="Transistor"
               src="https://keynote.tailwindui.com/_next/static/media/transistor.a1e38d49.svg" width="158" height="48" decoding="async" data-nimg="1"
               loading="lazy" style="color:transparent"></div>
           <div class="flex items-center justify-center"><img alt="Tuple" src="https://keynote.tailwindui.com/_next/static/media/tuple.2f54ed03.svg"
@@ -397,7 +400,8 @@ import Footer from '../components/Footer.vue'
           <div class="flex items-center justify-center"><img alt="Laravel" src="https://keynote.tailwindui.com/_next/static/media/mirage.e12f40ad.svg"
               width="136" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div>
           <div class="flex items-center justify-center"><img alt="Statamic" src="https://keynote.tailwindui.com/_next/static/media/laravel.6faebf7c.svg"
-              width="147" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div>
+              width="147" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div> -->
+
         </div>
       </div>
     </section>
