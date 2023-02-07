@@ -34,10 +34,10 @@ import Footer from '../components/Footer.vue'
               <span class="font-medium">Company Profile</span> <i class="ml-5 fa-solid fa-address-card"></i>
             </a>
 
-            <a href="#"
+            <RouterLink to="/about-us"
               class="transform transition hover:scale-105 duration-700 hover:bg-white block w-full rounded bg-gray-200 px-12 py-3 text-sm font-medium text-black shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto">
               More About Us
-            </a>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -75,11 +75,11 @@ import Footer from '../components/Footer.vue'
             revenue..
           </p>
           <form class="pt-5 flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
-            <input placeholder="Sign up for News Letters" required="" type="email"
+            <input required="" type="email"
               class="flex-grow w-full h-12 px-4 mb-3 text-black font-bold transition duration-200 border-2 border-transparent rounded appearance-none md:mr-2 md:mb-0 bg-deep-purple-900 focus:border-teal-accent-700 focus:outline-none focus:shadow-outline" />
-            <a href="/"
+            <a href="#"
               class="inline-flex items-center justify-center w-full h-12 px-6 font-bold tracking-wide text-gray-900 transition duration-200 rounded shadow-md md:w-auto hover:text-deep-purple-900 bg-gray-100 hover:bg-black hover:text-white hover:bg-teal-accent-700 focus:shadow-outline focus:outline-none">
-              Subscribe
+              NewsLetters
             </a>
           </form>
           <a aria-label="Scroll down"
@@ -94,7 +94,7 @@ import Footer from '../components/Footer.vue'
       </div>
     </div>
 
-    <div class="mt-28 max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+    <div class="mt-28 max-w-xl mb-10 md:mx-auto text-center lg:max-w-2xl md:mb-12">
       <div>
         <p
           class="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">

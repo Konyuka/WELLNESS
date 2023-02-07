@@ -34,11 +34,11 @@ const router = createRouter({
       name: 'Whyus',
       component: () => import('../views/Whyus.vue')
     },
-    {
-      path: '/contacts',
-      name: 'contscts',
-      component: () => import('../views/ContactView.vue')
-    },
+    // {
+    //   path: '/contacts',
+    //   name: 'contscts',
+    //   component: () => import('../views/ContactView.vue')
+    // },
   ]
 })
 

@@ -46,11 +46,11 @@ defineProps({
             <p class="font-bold tracking-wide text-teal-accent-400">Quick Links</p>
             <ul class="mt-2 space-y-2">
               <li>
-                <a href="/"
+                <a href="/services"
                   class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Our Services</a>
               </li>
               <li>
-                <a href="/"
+                <a href="/contacts"
                   class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Contact Us</a>
               </li>
               <li>
@@ -58,11 +58,11 @@ defineProps({
                   class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Testimonials</a>
               </li>
               <li>
-                <a href="/"
+                <a href="/blogs"
                   class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">Blog Articles</a>
               </li>
               <li>
-                <a href="/"
+                <a href="/about-us"
                   class="transition-colors duration-300 text-deep-purple-50 hover:text-teal-accent-400">About Us</a>
               </li>
             </ul>

@@ -40,7 +40,8 @@ const mobileMenu = ref(false)
           </div>
 
           <nav class="hidden space-x-10 md:flex">
-            <RouterLink to="/services" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services <i class="text-red-800 fa-solid fa-business-time"></i> </RouterLink>
+            <RouterLink to="/" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services <i class="text-red-800 fa-solid fa-business-time"></i> </RouterLink>
+            <!-- <RouterLink to="/services" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Our Services <i class="text-red-800 fa-solid fa-business-time"></i> </RouterLink> -->
             <RouterLink to="/about-us" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">About Us <i class="text-red-800 fa-solid fa-user-tie"></i> </RouterLink>
             <RouterLink to="/contacts" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Contact Us <i class="text-red-800 fa-solid fa-address-book"></i> </RouterLink>
             <RouterLink to="/why-us" class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">Why Us ? <i class="text-red-800 fa-solid fa-circle-question"></i> </RouterLink>
@@ -78,10 +79,10 @@ const mobileMenu = ref(false)
         <div class="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
           <div class="px-5 pt-5 pb-6">
             <div class="flex items-center justify-between">
-              <div>
+              <RouterLink to="/">
                 <img class="h-24 w-auto" src="/logo.png"
                   alt="Your Company">
-              </div>
+              </RouterLink>
               <div class="-mr-2">
                 <button @click="mobileMenu = !mobileMenu" type="button"
                   class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-red-500">
@@ -106,9 +107,14 @@ const mobileMenu = ref(false)
                   <span class="ml-3 text-base font-medium text-gray-900">Analytics</span>
                 </a> -->
 
-                <RouterLink to="/services"
+                <RouterLink to="/"
                   class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">
-                  Our Services <i class="text-red-800 fa-solid fa-business-time"></i> </RouterLink>
+                  Our Services <i class="text-red-800 fa-solid fa-business-time"></i> 
+                </RouterLink>
+                <!-- <RouterLink to="/services"
+                  class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">
+                  Our Services <i class="text-red-800 fa-solid fa-business-time"></i> 
+                </RouterLink> -->
 
                   <RouterLink to="/about-us"
                     class="hover:font-bold  transform transition hover:scale-95 duration-700 text-base font-bold text-black hover:text-red-900">

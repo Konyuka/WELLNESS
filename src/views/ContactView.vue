@@ -31,7 +31,7 @@ import Footer from '../components/Footer.vue'
                 <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/contact_indigo-svg2.svg" alt="email" />
 
               </div>
-              <p class="pl-4 text-white text-base">info@@michdigital.co.ke
+              <p class="pl-4 text-white text-base">julian@michdigital.co.ke
               </p>
             </div>
 
@@ -126,14 +126,14 @@ import Footer from '../components/Footer.vue'
               Our Physical Location <br class="hidden md:block" />
             </h2>
             <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-              Head Office 1st Floor, <br />
-              Senteu Plaza, Off Galana Road
+              Kofisi Square, 45 Africa Reit, <br>
+              Karen road, Karen Nairobi.
               <br />
               Nairobi - Kenya. <br /> <br />
 
               Mich Digital Limited
             </p>
-            <a href="/" aria-label=""
+            <a target="_blank" href="https://www.google.com/maps/place/45+Africa+Reit/@-1.3287491,36.7123553,17z/data=!3m1!4b1!4m5!3m4!1s0x182f1b5b2bb5461d:0x8d3e8fdbe28f534e!8m2!3d-1.3287545!4d36.7172262" aria-label=""
               class="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-gray-400 hover:text-white">
               View on Google Maps
               <svg class=" inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
