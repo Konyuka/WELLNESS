@@ -291,7 +291,7 @@ import Footer from '../components/Footer.vue'
                       Society</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src=""
+                        src="@/assets/aluoch.jpeg"
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -316,7 +316,7 @@ import Footer from '../components/Footer.vue'
                       Energy</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src=""
+                        src="@/assets/db.jpeg"
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -344,7 +344,7 @@ import Footer from '../components/Footer.vue'
                       <div class="mt-1 text-sm text-red-800 font-bold">MD, Liberty Kenya</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src=""
+                        src="@/assets/abel.jpeg"
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -369,7 +369,7 @@ import Footer from '../components/Footer.vue'
                       Technologies</div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src=""
+                        src="@/assets/odipo.jpeg"
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
