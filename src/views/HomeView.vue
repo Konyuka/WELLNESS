@@ -123,7 +123,7 @@ import Footer from '../components/Footer.vue'
     </div>
 
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 mb-14">
-      <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-2">
         <div
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
@@ -132,8 +132,7 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">DIGITAL MARKETING
-            STRATEGY/CONSULTANCY</h6>
+          <h6 class="mb-2 font-semibold leading-5">DIGITAL MARKETING</h6>
           <p class="mb-5 text-sm text-gray-900">
           </p>
           <a href="/" aria-label=""
@@ -161,8 +160,7 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">WEBSITECREATION
-            & MAINTANANCE</h6>
+          <h6 class="mb-2 font-semibold leading-5">ADVERTISING</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
@@ -175,11 +173,24 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">SOCIAL MEDIA MANAGEMENT</h6>
+          <h6 class="mb-2 font-semibold leading-5">SEARCH ENGINE OPTIMIZATION</h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
         </div>
+        <div
+            class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+            <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
+              <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                  points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+              </svg>
+            </div>
+            <h6 class="mb-2 font-semibold leading-5">SOCIAL MEDIA MANAGEMENT</h6>
+            <a href="/" aria-label=""
+              class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+              more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
+          </div>
         <div
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
@@ -188,23 +199,7 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">SEARCH ENGINE
-            OPTIMIZATION</h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
-          class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
-            <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg>
-          </div>
-          <h6 class="mb-2 font-semibold leading-5">CREATIVE CONTENT
-            MARKETING &
-            COPYWRITING
+          <h6 class="mb-2 font-semibold leading-5">CREATIVE CONTENT MARKETING 
           </h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
@@ -232,24 +227,7 @@ import Footer from '../components/Footer.vue'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">GOOGLE ADS, META
-            ADS,LINKEDIN &
-            YOUTUBE
-          </h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
-          class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
-            <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-              <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-                points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-            </svg>
-          </div>
-          <h6 class="mb-2 font-semibold leading-5">EMAIL & BULK SMS
-            TARGETING
+          <h6 class="mb-2 font-semibold leading-5">WEBSITE CREATION AND MAINTAINANCE
           </h6>
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn

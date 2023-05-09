@@ -34,11 +34,47 @@ const router = createRouter({
       name: 'Whyus',
       component: () => import('../views/Whyus.vue')
     },
-    // {
-    //   path: '/contacts',
-    //   name: 'contscts',
-    //   component: () => import('../views/ContactView.vue')
-    // },
+    {
+      path: '/servcies/ads',
+      name: 'servcies_ads',
+      component: () => import('../views/services/Ads.vue')
+    },
+    {
+      path: '/servcies/adverts',
+      name: 'servcies_adverts',
+      component: () => import('../views/services/Adverts.vue')
+    },
+    {
+      path: '/servcies/branding',
+      name: 'servcies_branding',
+      component: () => import('../views/services/Branding.vue')
+    },
+    {
+      path: '/servcies/content',
+      name: 'servcies_content',
+      component: () => import('../views/services/Content.vue')
+    },
+    {
+      path: '/servcies/digital',
+      name: 'servcies_digital',
+      component: () => import('../views/services/Digital.vue')
+    },
+    {
+      path: '/servcies/media',
+      name: 'servcies_media',
+      component: () => import('../views/services/Media.vue')
+    },
+    {
+      path: '/servcies/seo',
+      name: 'servcies_seo',
+      component: () => import('../views/services/Seo.vue')
+    },
+    {
+      path: '/servcies/website',
+      name: 'servcies_website',
+      component: () => import('../views/services/Website.vue')
+    },
+    
   ]
 })
 
