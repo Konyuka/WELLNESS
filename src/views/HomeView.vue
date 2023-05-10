@@ -1,7 +1,6 @@
 <script setup>
 import Footer from '../components/Footer.vue'
-// import {ref} from 'vue
-
+import { RouterLink } from 'vue-router'
 
 </script>
 
@@ -124,7 +123,7 @@ import Footer from '../components/Footer.vue'
 
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 mb-14">
       <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-2">
-        <div
+        <RouterLink to="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -135,11 +134,11 @@ import Footer from '../components/Footer.vue'
           <h6 class="mb-2 font-semibold leading-5">DIGITAL MARKETING</h6>
           <p class="mb-5 text-sm text-gray-900">
           </p>
-          <a href="/" aria-label=""
+          <p href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </RouterLink>
+        <RouterLink to="/servcies/branding"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -151,8 +150,8 @@ import Footer from '../components/Footer.vue'
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
+        </RouterLink>
+        <RouterLink to="/servcies/adverts"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -164,8 +163,8 @@ import Footer from '../components/Footer.vue'
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
+        </RouterLink>
+        <RouterLink to="/servcies/seo"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -177,8 +176,8 @@ import Footer from '../components/Footer.vue'
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
+        </RouterLink>
+        <RouterLink to="/servcies/media"
             class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
             <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
               <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -190,8 +189,8 @@ import Footer from '../components/Footer.vue'
             <a href="/" aria-label=""
               class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
               more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-          </div>
-        <div
+          </RouterLink>
+        <RouterLink to="/servcies/content"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -204,8 +203,8 @@ import Footer from '../components/Footer.vue'
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
+        </RouterLink>
+        <RouterLink to="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -218,8 +217,8 @@ import Footer from '../components/Footer.vue'
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
-        <div
+        </RouterLink>
+        <RouterLink to="/servcies/website"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -232,7 +231,7 @@ import Footer from '../components/Footer.vue'
           <a href="/" aria-label=""
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </div>
+        </RouterLink>
       </div>
     </div>
 
@@ -283,7 +282,7 @@ import Footer from '../components/Footer.vue'
                     </path>
                   </svg>
                   <blockquote class="relative">
-                    <p class="text-lg tracking-tight text-slate-900">They understand Consumer behavior
+                    <p class="text-lg tracking-tight text-slate-900">They understand consumer behaviour
                     even through uncertain times. A key
                     support system during Covid19 onset</p>
                   </blockquote>
@@ -337,8 +336,8 @@ import Footer from '../components/Footer.vue'
                   </svg>
                   <blockquote class="relative">
                     <p class="text-lg tracking-tight text-slate-900">More Creative, Credible &
-                    Convincing in Competitive
-                    Markets. It's unbeleivable how the team actualization conversions overtime</p>
+                    Convincing in competitive
+                    markets. It's unbeleivable how the team actualization conversions overtime</p>
                   </blockquote>
                   <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                     <div>

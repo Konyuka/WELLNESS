@@ -19,15 +19,15 @@ import Footer from '../components/Footer.vue'
                 <span class="block text-red-800 xl:inline">choose us?</span>
               </h1>
 
-              <h2 class="mt-10 text-left text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"><i
+              <h2 class="mt-20 text-left text-lg font-bold leading-8 tracking-tight text-gray-900 sm:text-xl"><i
                   class="fas fa-caret-right text-red-800"></i> What we do best</h2>
               <p
-                class="mt-10 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                class="mt-10 text-base sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-md lg:mx-0">
                 Attention & Persuasion, are digital currencies
                 earned through exchange of value that goes
                 beyond your service/product. People have
                 insatiable desire to seek, learn and discover.
-                <br><br>
+                <br>
                 Our strategy is a combination of three things
                 that holds the human attention:
                 <br>
@@ -38,10 +38,10 @@ import Footer from '../components/Footer.vue'
 
               </p>
 
-              <h2 class="mt-10 text-left text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl"><i
+              <h2 class="mt-20 text-left text-lg font-bold leading-8 tracking-tight text-gray-900 sm:text-xl"><i
                   class="fas fa-caret-right text-red-800"></i> Innovative Ideas</h2>
               <p
-                class="mt-10 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+                class="mt-10 text-base sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-md lg:mx-0">
                 We treat digital platforms as less of
                 technology and more of sociology &
                 psychology.
@@ -92,7 +92,7 @@ import Footer from '../components/Footer.vue'
                   <div class="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-red-800 text-white">
                     <i class="fas fa-users text-white fa-xl"></i>
                   </div>
-                  <p class="ml-16 text-lg font-medium leading-6 text-gray-900">MESSAGING STRATEGY
+                  <p class="ml-16 text-lg font-bold leading-6 text-gray-900">Messaging Strategy
                   </p>
                 </dt>
                 <dd class="mt-2 ml-16 text-base text-gray-500">A keen focus not only in who
@@ -106,7 +106,7 @@ import Footer from '../components/Footer.vue'
                   <div class="absolute flex h-12 w-12 items-center justify-center rounded-xl bg-red-800 text-white">
                     <i class="fa-brands fa-connectdevelop text-white fa-xl"></i>
                   </div>
-                  <p class="ml-16 text-lg font-medium leading-6 text-gray-900">BRAND POSITIONING</p>
+                  <p class="ml-16 text-lg font-bold leading-6 text-gray-900">Brand Positioning</p>
                 </dt>
                 <dd class="mt-2 ml-16 text-base text-gray-500">This is link-building, online
                   Community and Generating
@@ -122,7 +122,7 @@ import Footer from '../components/Footer.vue'
                     <!-- <i class="fas fa-users text-white fa-xl"></i> -->
                     <i class="fas fa-bullseye text-white fa-xl"></i>
                   </div>
-                  <p class="ml-16 text-lg font-medium leading-6 text-gray-900">TARGET MARKET
+                  <p class="ml-16 text-lg font-bold leading-6 text-gray-900">Target Market
                   </p>
                 </dt>
                 <dd class="mt-2 ml-16 text-base text-gray-500">Targets editors, influential bloggers, referral partners

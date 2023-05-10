@@ -6,23 +6,20 @@ import Footer from '../components/Footer.vue'
   <div class="bg-gradient-to-l from-gray-100 to-red-800 h-screen">
     
     <div class="bg-white">
-      <header class="relative bg-red-800 pb-24 sm:pb-32">
+      <header class="relative bg-red-800 pb-24 sm:pb-36">
         <div class="absolute inset-0">
           <img class="h-full w-full object-cover"
-            src="@/assets/about.jpg"
+            src="https://images.unsplash.com/photo-1507561942779-d2a26d42d51f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             alt="">
-          <div class="absolute inset-0 bg-gradient-to-l from-red-800 to-red-700 mix-blend-multiply" aria-hidden="true">
+          <div class="absolute inset-0 bg-gradient-to-l from-red-600 to-red-800 mix-blend-multiply" aria-hidden="true">
           </div>
         </div>
-        <div class="relative z-10 h-40">
+        <div class="relative z-10 h-20">
          
         </div>
     
-        <div class="relative mx-auto mt-24 max-w-md px-4 sm:mt-32 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-          <!-- <h1 class="text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">About Us</h1> -->
-          <!-- <p class="mt-6 max-w-3xl text-xl text-cyan-100">
-
-          </p> -->
+        <div class="relative mx-auto mt-10 max-w-md px-4 sm:mt-10 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+          <h1 class="flex justify-center text-6xl font-bold tracking-tight text-white sm:text-7xl lg:text-7xl">About Us</h1>
         </div>
       </header>
     
