@@ -6,15 +6,14 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="bg-fixed h-screen">
-    <!-- mx-auto max-w-7xl sm:px-6 lg:px-8 -->
     <section
-      class="relative bg-[url(https://downloader.la/temp/[Downloader.la]-63733dd9b9d20.jpg)] bg-cover bg-fixed bg-center bg-no-repeat">
-      <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/95 sm:to-white/25">
+      class="relative bg-[url(/bg.jpg)] bg-cover bg-fixed bg-center bg-no-repeat">
+      <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/100 sm:to-white/25">
       </div>
 
-      <div class="relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
-        <div class="max-w-screen text-center sm:text-left">
-          <h1 class="text-5xl font-extrabold sm:text-5xl">
+      <div class="justify-center relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+        <div class="max-w-screen text-center">
+          <h1 class="text-5xl font-extrabold sm:text-6xl">
             Mich
 
             <strong class="block font-extrabold text-red-800">
@@ -34,7 +33,7 @@ import { RouterLink } from 'vue-router'
             </a>
 
             <RouterLink to="/about-us"
-              class="transform transition hover:scale-105 duration-700 hover:bg-white block w-full rounded bg-gray-200 px-12 py-3 text-sm font-medium text-black shadow hover:text-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto">
+              class="transform transition hover:scale-105 duration-700 bg-red-800 block w-full rounded px-12 py-3 text-sm font-medium text-white shadow hover:bg-red-700 focus:outline-none focus:ring active:text-red-500 sm:w-auto">
               More About Us
             </RouterLink>
           </div>
@@ -123,7 +122,7 @@ import { RouterLink } from 'vue-router'
 
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 mb-14">
       <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-2">
-        <RouterLink to="/servcies/digital"
+        <a href="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -135,10 +134,11 @@ import { RouterLink } from 'vue-router'
           <p class="mb-5 text-sm text-gray-900">
           </p>
           <p href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </RouterLink>
-        <RouterLink to="/servcies/branding"
+        </a>
+        <a href="/servcies/branding"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -147,11 +147,12 @@ import { RouterLink } from 'vue-router'
             </svg>
           </div>
           <h6 class="mb-2 font-semibold leading-5">PERSONAL BRANDING</h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </RouterLink>
-        <RouterLink to="/servcies/adverts"
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
+        <a href="/servcies/adverts"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -160,11 +161,12 @@ import { RouterLink } from 'vue-router'
             </svg>
           </div>
           <h6 class="mb-2 font-semibold leading-5">ADVERTISING</h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </RouterLink>
-        <RouterLink to="/servcies/seo"
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
+        <a href="/servcies/seo"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -173,24 +175,12 @@ import { RouterLink } from 'vue-router'
             </svg>
           </div>
           <h6 class="mb-2 font-semibold leading-5">SEARCH ENGINE OPTIMIZATION</h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </RouterLink>
-        <RouterLink to="/servcies/media"
-            class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
-            <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
-              <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
-                <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
-              </svg>
-            </div>
-            <h6 class="mb-2 font-semibold leading-5">SOCIAL MEDIA MANAGEMENT</h6>
-            <a href="/" aria-label=""
-              class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-              more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-          </RouterLink>
-        <RouterLink to="/servcies/content"
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
+        <a href="/servcies/media"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -198,13 +188,28 @@ import { RouterLink } from 'vue-router'
                 points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
             </svg>
           </div>
-          <h6 class="mb-2 font-semibold leading-5">CREATIVE CONTENT MARKETING 
+          <h6 class="mb-2 font-semibold leading-5">SOCIAL MEDIA MANAGEMENT</h6>
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
+        <a href="/servcies/content"
+          class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
+          <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
+            <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
+              <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
+                points="29 13 14 29 25 29 23 39 38 23 27 23"></polygon>
+            </svg>
+          </div>
+          <h6 class="mb-2 font-semibold leading-5">CREATIVE CONTENT MARKETING
           </h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </RouterLink>
-        <RouterLink to="/servcies/digital"
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
+        <a href="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -214,11 +219,12 @@ import { RouterLink } from 'vue-router'
           </div>
           <h6 class="mb-2 font-semibold leading-5">DIGITAL MARKETING
             TRAINING</h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </RouterLink>
-        <RouterLink to="/servcies/website"
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
+        <a href="/servcies/website"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -228,15 +234,15 @@ import { RouterLink } from 'vue-router'
           </div>
           <h6 class="mb-2 font-semibold leading-5">WEBSITE CREATION AND MAINTAINANCE
           </h6>
-          <a href="/" aria-label=""
-            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn
-            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></a>
-        </RouterLink>
+          <p href="/" aria-label=""
+            class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
+            Learn
+            more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
+        </a>
       </div>
     </div>
 
-    <section id="testimonials" aria-label="What our customers are saying"
-      class="bg-red-800 py-20 sm:py-32">
+    <section id="testimonials" aria-label="What our customers are saying" class="bg-red-800 py-20 sm:py-32">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl md:text-center">
           <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">Loved by businesses worldwide.</h2>
@@ -265,10 +271,9 @@ import { RouterLink } from 'vue-router'
                     <div>
                       <div class="font-bold text-base text-slate-900">Dr. Joseph Aluoch</div>
                       <div class="mt-1 text-sm text-red-800 font-bold">President Pan African Thoracic
-                      Society</div>
+                        Society</div>
                     </div>
-                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src="@/assets/aluoch.jpeg"
+                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt="" src="@/assets/aluoch.jpeg"
                         width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
                         loading="lazy" style="color:transparent"></div>
                   </figcaption>
@@ -283,19 +288,18 @@ import { RouterLink } from 'vue-router'
                   </svg>
                   <blockquote class="relative">
                     <p class="text-lg tracking-tight text-slate-900">They understand consumer behaviour
-                    even through uncertain times. A key
-                    support system during Covid19 onset</p>
+                      even through uncertain times. A key
+                      support system during Covid19 onset</p>
                   </blockquote>
                   <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                     <div>
                       <div class="font-bold text-base text-slate-900">Michael Adwera</div>
                       <div class="mt-1 text-sm text-red-800 font-bold">Head of Business Development, Vivo
-                      Energy</div>
+                        Energy</div>
                     </div>
-                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src="@/assets/db.jpeg"
-                        width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
-                        loading="lazy" style="color:transparent"></div>
+                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt="" src="@/assets/db.jpeg" width="56"
+                        height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover" loading="lazy"
+                        style="color:transparent"></div>
                   </figcaption>
                 </figure>
               </li>
@@ -312,18 +316,17 @@ import { RouterLink } from 'vue-router'
                   </svg>
                   <blockquote class="relative">
                     <p class="text-lg tracking-tight text-slate-900">An extremely pro-active team on
-                    deliverables and very passionate
-                    about their art</p>
+                      deliverables and very passionate
+                      about their art</p>
                   </blockquote>
                   <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                     <div>
                       <div class="font-bold text-base text-slate-900">Abel Munda</div>
                       <div class="mt-1 text-sm text-red-800 font-bold">MD, Liberty Kenya</div>
                     </div>
-                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src="@/assets/abel.jpeg"
-                        width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
-                        loading="lazy" style="color:transparent"></div>
+                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt="" src="@/assets/abel.jpeg" width="56"
+                        height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover" loading="lazy"
+                        style="color:transparent"></div>
                   </figcaption>
                 </figure>
               </li>
@@ -335,20 +338,21 @@ import { RouterLink } from 'vue-router'
                     </path>
                   </svg>
                   <blockquote class="relative">
-                    <p class="text-lg tracking-tight text-slate-900">More Creative, Credible &
-                    Convincing in competitive
-                    markets. It's unbeleivable how the team actualization conversions overtime</p>
+                    <p class="text-lg tracking-tight text-slate-900">
+                      More competitive, credible & convincing in competitive markets. The team actualizes impressive
+                      conversions from social
+                      traffic to real-time clients within 90 days.
+                    </p>
                   </blockquote>
-                  <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
+                  <figcaption class="relative flex items-center justify-between border-t border-slate-100 pt-4">
                     <div>
                       <div class="font-bold text-base text-slate-900">Chrispin Oduor</div>
                       <div class="mt-1 text-sm text-red-800 font-bold">CEO Langu Green
-                      Technologies</div>
+                        Technologies</div>
                     </div>
-                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
-                        src="@/assets/odipo.jpeg"
-                        width="56" height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover"
-                        loading="lazy" style="color:transparent"></div>
+                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt="" src="@/assets/odipo.jpeg" width="56"
+                        height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover" loading="lazy"
+                        style="color:transparent"></div>
                   </figcaption>
                 </figure>
               </li>
@@ -368,21 +372,6 @@ import { RouterLink } from 'vue-router'
 
 
           <img class="" src="@/assets/20.png" alt="">
-          <!-- <div class="flex items-center justify-center"><img alt="Transistor"
-              src="https://keynote.tailwindui.com/_next/static/media/transistor.a1e38d49.svg" width="158" height="48" decoding="async" data-nimg="1"
-              loading="lazy" style="color:transparent"></div>
-          <div class="flex items-center justify-center"><img alt="Tuple" src="https://keynote.tailwindui.com/_next/static/media/tuple.2f54ed03.svg"
-              width="105" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div>
-          <div class="flex items-center justify-center"><img alt="StaticKit"
-              src="https://keynote.tailwindui.com/_next/static/media/tuple.2f54ed03.svg" width="127" height="48" decoding="async" data-nimg="1"
-              loading="lazy" style="color:transparent"></div>
-          <div class="flex items-center justify-center"><img alt="Mirage" src="https://keynote.tailwindui.com/_next/static/media/mirage.e12f40ad.svg"
-              width="138" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div>
-          <div class="flex items-center justify-center"><img alt="Laravel" src="https://keynote.tailwindui.com/_next/static/media/mirage.e12f40ad.svg"
-              width="136" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div>
-          <div class="flex items-center justify-center"><img alt="Statamic" src="https://keynote.tailwindui.com/_next/static/media/laravel.6faebf7c.svg"
-              width="147" height="48" decoding="async" data-nimg="1" loading="lazy" style="color:transparent"></div> -->
-
         </div>
       </div>
     </section>
@@ -390,81 +379,4 @@ import { RouterLink } from 'vue-router'
 
     <Footer />
 
-    <!-- <div class="relative">
-      <img
-        src="https://images.pexels.com/photos/3228766/pexels-photo-3228766.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-        class="absolute inset-0 object-cover w-full h-full" alt="" />
-      <div class="relative bg-opacity-75 bg-red-800">
-        <svg class="absolute inset-x-0 bottom-0 text-white" viewBox="0 0 1160 163">
-          <path fill="currentColor"
-            d="M-164 13L-104 39.7C-44 66 76 120 196 141C316 162 436 152 556 119.7C676 88 796 34 916 13C1036 -8 1156 2 1216 7.7L1276 13V162.5H1216C1156 162.5 1036 162.5 916 162.5C796 162.5 676 162.5 556 162.5C436 162.5 316 162.5 196 162.5C76 162.5 -44 162.5 -104 162.5H-164V13Z">
-          </path>
-        </svg>
-        <div
-          class="relative px-4 py-16 mx-auto overflow-hidden sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div class="flex flex-col items-center justify-between xl:flex-row">
-            <div class="w-full max-w-xl mb-12 xl:mb-0 xl:pr-16 xl:w-7/12">
-              <h2 class="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-                The quick, brown fox <br class="hidden md:block" />
-                jumps over a lazy dog
-              </h2>
-              <p class="max-w-xl mb-4 text-base text-gray-200 md:text-lg">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem
-                aperiam, eaque ipsa quae.
-              </p>
-              <a href="/" aria-label=""
-                class="inline-flex items-center font-semibold tracking-wider transition-colors duration-200 text-teal-accent-400 hover:text-teal-accent-700">
-                Learn more
-                <svg class="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12">
-                  <path
-                    d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z">
-                  </path>
-                </svg>
-              </a>
-            </div>
-            <div class="w-full max-w-xl xl:px-8 xl:w-5/12">
-              <div class="bg-white rounded shadow-2xl p-7 sm:p-10">
-                <h3 class="mb-4 text-xl font-semibold sm:text-center sm:mb-6 sm:text-2xl">
-                  Sign up for updates
-                </h3>
-                <form>
-                  <div class="mb-1 sm:mb-2">
-                    <label for="firstName" class="inline-block mb-1 font-medium">First name</label>
-                    <input placeholder="John" required="" type="text"
-                      class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                      id="firstName" name="firstName" />
-                  </div>
-                  <div class="mb-1 sm:mb-2">
-                    <label for="lastName" class="inline-block mb-1 font-medium">Last name</label>
-                    <input placeholder="Doe" required="" type="text"
-                      class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                      id="lastName" name="lastName" />
-                  </div>
-                  <div class="mb-1 sm:mb-2">
-                    <label for="email" class="inline-block mb-1 font-medium">E-mail</label>
-                    <input placeholder="john.doe@example.org" required="" type="text"
-                      class="flex-grow w-full h-12 px-4 mb-2 transition duration-200 bg-white border border-gray-300 rounded shadow-sm appearance-none focus:border-deep-purple-accent-400 focus:outline-none focus:shadow-outline"
-                      id="email" name="email" />
-                  </div>
-                  <div class="mt-4 mb-2 sm:mb-4">
-                    <button type="submit"
-                      class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none">
-                      Subscribe
-                    </button>
-                  </div>
-                  <p class="text-xs text-gray-600 sm:text-sm">
-                    We respect your privacy. Unsubscribe at any time.
-                  </p>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-
-
-
-  </div>
-</template>
+</div></template>
