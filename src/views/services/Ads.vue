@@ -1,5 +1,18 @@
 <script setup>
+import { onMounted } from 'vue';
 import Footer from '../../components/Footer.vue'
+
+
+alert('hi')
+
+onMounted(() => {
+  console.log('hi')
+  alert('hi')
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+})
 // psuh
 </script>
 

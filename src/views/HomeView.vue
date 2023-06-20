@@ -6,12 +6,12 @@ import { RouterLink } from 'vue-router'
 
 <template>
   <div class="bg-fixed h-screen">
-    <section
-      class="relative bg-[url(/bg.jpg)] bg-cover bg-fixed bg-center bg-no-repeat">
+    <section class="relative bg-[url(/bg.jpg)] bg-cover bg-fixed bg-center bg-no-repeat">
       <div class="absolute inset-0 bg-white/75 sm:bg-transparent sm:bg-gradient-to-r sm:from-white/100 sm:to-white/25">
       </div>
 
-      <div class="justify-center relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
+      <div
+        class="justify-center relative mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:items-center lg:px-8">
         <div class="max-w-screen text-center">
           <h1 class="text-5xl font-extrabold sm:text-6xl">
             Mich
@@ -66,11 +66,10 @@ import { RouterLink } from 'vue-router'
             gets stamped in our brains.
             <br>
             <br>
-            The brain takes shortcuts. It’s mission after
-            all, is to conserve energy. Our marketing
+            Our marketing
             strategy aims to create a major milestone in
             how you connect, engage and generate
-            revenue..
+            revenue.
           </p>
           <form class="pt-5 flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
             <input required="" type="email"
@@ -122,7 +121,7 @@ import { RouterLink } from 'vue-router'
 
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 mb-14">
       <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-2">
-        <a href="/servcies/digital"
+        <RouterLink to="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -137,8 +136,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/branding"
+        </RouterLink>
+        <RouterLink to="/servcies/branding"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -151,8 +150,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/adverts"
+        </RouterLink>
+        <RouterLink to="/servcies/adverts"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -165,8 +164,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/seo"
+        </RouterLink>
+        <RouterLink to="/servcies/seo"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -179,8 +178,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/media"
+        </RouterLink>
+        <RouterLink to="/servcies/media"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -193,8 +192,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/content"
+        </RouterLink>
+        <RouterLink to="/servcies/content"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -208,8 +207,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/digital"
+        </RouterLink>
+        <RouterLink to="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -223,8 +222,8 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
-        <a href="/servcies/website"
+        </RouterLink>
+        <RouterLink to="/servcies/website"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
             <svg class="w-8 h-8 text-deep-purple-accent-400" stroke="currentColor" viewBox="0 0 52 52">
@@ -238,7 +237,7 @@ import { RouterLink } from 'vue-router'
             class="text-sm inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
-        </a>
+        </RouterLink>
       </div>
     </div>
 
@@ -303,6 +302,30 @@ import { RouterLink } from 'vue-router'
                   </figcaption>
                 </figure>
               </li>
+              <li>
+                <figure class="relative rounded-2xl bg-white p-6 shadow-xl shadow-slate-900/10"><svg aria-hidden="true"
+                    width="105" height="78" class="absolute top-6 left-6 fill-slate-100">
+                    <path
+                      d="M25.086 77.292c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622C1.054 58.534 0 53.411 0 47.686c0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C28.325 3.917 33.599 1.507 39.324 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Zm54.24 0c-4.821 0-9.115-1.205-12.882-3.616-3.767-2.561-6.78-6.102-9.04-10.622-2.11-4.52-3.164-9.643-3.164-15.368 0-5.273.904-10.396 2.712-15.368 1.959-4.972 4.746-9.567 8.362-13.786a59.042 59.042 0 0 1 12.43-11.3C82.565 3.917 87.839 1.507 93.564 0l11.074 13.786c-6.479 2.561-11.677 5.951-15.594 10.17-3.767 4.219-5.65 7.835-5.65 10.848 0 1.356.377 2.863 1.13 4.52.904 1.507 2.637 3.089 5.198 4.746 3.767 2.41 6.328 4.972 7.684 7.684 1.507 2.561 2.26 5.5 2.26 8.814 0 5.123-1.959 9.19-5.876 12.204-3.767 3.013-8.588 4.52-14.464 4.52Z">
+                    </path>
+                  </svg>
+                  <blockquote class="relative">
+                    <p class="text-lg tracking-tight text-slate-900">
+                      Excellently executed a National campaign for the official opening of AAR Hospital by the President
+                    </p>
+                  </blockquote>
+                  <figcaption class="relative flex items-center justify-between border-t border-slate-100 pt-4">
+                    <div>
+                      <div class="font-bold text-base text-slate-900">Steve Okeyo</div>
+                      <div class="mt-1 text-sm text-red-800 font-bold">CEO Hospital Holdings Investment (AAR Group)
+                      </div>
+                    </div>
+                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt="" src="@/assets/steve.jpeg" width="56"
+                        height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover" loading="lazy"
+                        style="color:transparent"></div>
+                  </figcaption>
+                </figure>
+              </li>
             </ul>
           </li>
           <li>
@@ -357,6 +380,7 @@ import { RouterLink } from 'vue-router'
                 </figure>
               </li>
             </ul>
+            
           </li>
         </ul>
       </div>
@@ -379,4 +403,5 @@ import { RouterLink } from 'vue-router'
 
     <Footer />
 
-</div></template>
+  </div>
+</template>
