@@ -121,6 +121,7 @@ import { RouterLink } from 'vue-router'
 
     <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10 mb-14">
       <div class="grid gap-8 row-gap-5 sm:row-gap-8 sm:grid-cols-2 lg:grid-cols-2">
+
         <RouterLink to="/servcies/digital"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
@@ -137,6 +138,7 @@ import { RouterLink } from 'vue-router'
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
         </RouterLink>
+        
         <RouterLink to="/servcies/branding"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
@@ -241,13 +243,12 @@ import { RouterLink } from 'vue-router'
       </div>
     </div>
 
+    
+
     <section id="testimonials" aria-label="What our customers are saying" class="bg-red-800 py-20 sm:py-32">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl md:text-center">
           <h2 class="font-display text-3xl tracking-tight text-white sm:text-4xl">Loved by businesses worldwide.</h2>
-          <p class="mt-4 text-lg tracking-tight text-gray-200">Our service is so simple that people can’t help but fall
-            in
-            love with it. Simplicity is easy when you just skip tons of mission-critical features.</p>
         </div>
         <ul role="list"
           class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-2">
@@ -293,8 +294,9 @@ import { RouterLink } from 'vue-router'
                   <figcaption class="relative mt-6 flex items-center justify-between border-t border-slate-100 pt-6">
                     <div>
                       <div class="font-bold text-base text-slate-900">Michael Adwera</div>
-                      <div class="mt-1 text-sm text-red-800 font-bold">Head of Business Development, Vivo
-                        Energy</div>
+                      <div class="mt-1 text-sm text-red-800 font-bold">Chairman Africa Inuka Group / The VIP Luxury Hotels
+                        Ltd.
+                      </div>
                     </div>
                     <div class="overflow-hidden rounded-full bg-slate-50"><img alt="" src="@/assets/db.jpeg" width="56"
                         height="56" decoding="async" data-nimg="1" class="h-14 w-14 object-cover" loading="lazy"
@@ -380,11 +382,45 @@ import { RouterLink } from 'vue-router'
                 </figure>
               </li>
             </ul>
-            
+
           </li>
         </ul>
       </div>
     </section>
+
+    <section>
+        <div class="bg-black">
+          <div class="mx-auto max-w-7xl">
+            <div class="grid grid-cols-1 gap-px bg-white/5 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
+                <p class="text-md font-medium leading-6 text-white">Google Marketing Campaigns</p>
+                <p class="mt-2 flex items-baseline gap-x-2">
+                  <span class="text-4xl font-semibold tracking-tight text-white">1,500 +</span>
+                </p>
+              </div>
+              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
+                <p class="text-md font-medium leading-6 text-white">Leads For Clients</p>
+                <p class="mt-2 flex items-baseline gap-x-2">
+                  <span class="text-4xl font-semibold tracking-tight text-white">2 Million +</span>
+                </p>
+              </div>
+              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
+                <p class="text-md font-medium leading-6 text-white">Average Conversion </p>
+                <p class="mt-2 flex items-baseline gap-x-2">
+                  <span class="text-4xl font-semibold tracking-tight text-white">81 %</span>
+                </p>
+              </div>
+              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8">
+                <p class="text-md font-medium leading-6 text-white">Social Media Influence</p>
+                <p class="mt-2 flex items-baseline gap-x-2">
+                  <span class="text-4xl font-semibold tracking-tight text-white">101 %</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
 
     <section id="sponsors" aria-label="Sponsors" class="py-20 sm:py-32">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
