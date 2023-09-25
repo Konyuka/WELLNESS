@@ -52,24 +52,21 @@ import { RouterLink } from 'vue-router'
       <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div class="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
           <h2 class="mb-6 font-sans text-3xl font-bold tracking-tight text-white sm:text-4xl sm:leading-none">
-            A Brief About the Organisation<br class="hidden md:block" />
+            Scale your Visibility and Revenue<br class="hidden md:block" />
           </h2>
-          <p class="mb-6 text-base text-red-100 md:text-lg">
-            In the last ten years, we’ve learnt more about
-            the brain than ever done since humankind
-            existed.
-            <br>
-            <br>
-            Our Marketing technique is based on how the
-            human mind works, how it processes and
-            recalls information, and how that information
-            gets stamped in our brains.
-            <br>
-            <br>
-            Our marketing
-            strategy aims to create a major milestone in
-            how you connect, engage and generate
-            revenue.
+          <p class="text-left mb-6 text-base text-red-100 md:text-lg">
+            Empowering brands with effective
+            digital marketing strategies to fuel Visibility, Growth and Revenue.
+            <br><br>
+            Our marketing technique is molded by a
+            tremendous journey of unique experiences that has proven the science behind the art of attention and
+            persuasion.
+            <br><br>
+            This boils down to how the human mind works, how it processes information and how
+            that information get’s stamped in our brain.
+            <br><br>
+            Our mastery of these digital tactics guarantees a revolutionary milestone in how you connect, engage and
+            generate revenue globally
           </p>
           <form class="pt-5 flex flex-col items-center w-full mb-4 md:flex-row md:px-16">
             <input required="" type="email"
@@ -138,7 +135,7 @@ import { RouterLink } from 'vue-router'
             Learn
             more <i class="fas fa-caret-right text-red-800 ml-2 mt-1"></i></p>
         </RouterLink>
-        
+
         <RouterLink to="/servcies/branding"
           class="bg-gradient-to-l hover:from-gray-100 hover:to-red-200 hover:cursor-pointer transform translate hover:scale-90 duration-700 shadow-lg hover:shadow-xl p-10">
           <div class="flex items-center justify-center w-10 h-10 mb-4 rounded-full bg-red-200">
@@ -243,7 +240,7 @@ import { RouterLink } from 'vue-router'
       </div>
     </div>
 
-    
+
 
     <section id="testimonials" aria-label="What our customers are saying" class="bg-red-800 py-20 sm:py-32">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -389,38 +386,38 @@ import { RouterLink } from 'vue-router'
     </section>
 
     <section>
-        <div class="bg-black">
-          <div class="mx-auto max-w-7xl">
-            <div class="grid grid-cols-1 gap-px bg-white/5 sm:grid-cols-2 lg:grid-cols-4">
-              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
-                <p class="text-md font-medium leading-6 text-white">Google Marketing Campaigns</p>
-                <p class="mt-2 flex items-baseline gap-x-2">
-                  <span class="text-4xl font-semibold tracking-tight text-white">1,500 +</span>
-                </p>
-              </div>
-              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
-                <p class="text-md font-medium leading-6 text-white">Leads For Clients</p>
-                <p class="mt-2 flex items-baseline gap-x-2">
-                  <span class="text-4xl font-semibold tracking-tight text-white">2 Million +</span>
-                </p>
-              </div>
-              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
-                <p class="text-md font-medium leading-6 text-white">Average Conversion </p>
-                <p class="mt-2 flex items-baseline gap-x-2">
-                  <span class="text-4xl font-semibold tracking-tight text-white">81 %</span>
-                </p>
-              </div>
-              <div class="bg-black px-4 py-6 sm:px-6 lg:px-8">
-                <p class="text-md font-medium leading-6 text-white">Social Media Influence</p>
-                <p class="mt-2 flex items-baseline gap-x-2">
-                  <span class="text-4xl font-semibold tracking-tight text-white">101 %</span>
-                </p>
-              </div>
+      <div class="bg-black">
+        <div class="mx-auto max-w-7xl">
+          <div class="grid grid-cols-1 gap-px bg-white/5 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
+              <p class="text-md font-medium leading-6 text-white">Google Marketing Campaigns</p>
+              <p class="mt-2 flex items-baseline gap-x-2">
+                <span class="text-4xl font-semibold tracking-tight text-white">1,500 +</span>
+              </p>
+            </div>
+            <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
+              <p class="text-md font-medium leading-6 text-white">Leads For Clients</p>
+              <p class="mt-2 flex items-baseline gap-x-2">
+                <span class="text-4xl font-semibold tracking-tight text-white">2 Million +</span>
+              </p>
+            </div>
+            <div class="bg-black px-4 py-6 sm:px-6 lg:px-8 border-r-2 border-red-800">
+              <p class="text-md font-medium leading-6 text-white">Average Conversion </p>
+              <p class="mt-2 flex items-baseline gap-x-2">
+                <span class="text-4xl font-semibold tracking-tight text-white">81 %</span>
+              </p>
+            </div>
+            <div class="bg-black px-4 py-6 sm:px-6 lg:px-8">
+              <p class="text-md font-medium leading-6 text-white">Social Media Influence</p>
+              <p class="mt-2 flex items-baseline gap-x-2">
+                <span class="text-4xl font-semibold tracking-tight text-white">101 %</span>
+              </p>
             </div>
           </div>
         </div>
+      </div>
 
-      </section>
+    </section>
 
     <section id="sponsors" aria-label="Sponsors" class="py-20 sm:py-32">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
